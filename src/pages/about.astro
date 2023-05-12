@@ -4,11 +4,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const title = 'About';
 const description = 'About your blog.';
 const permalink = `${Astro.site.href}about`;
+const choice = Math.floor(Math.random() * 10);
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink} current="about">
   <div class="container">
-    <h2>Life's Algorithmic Tapestry</h2>
+    {choice <= 5 && <h2>Life's Algorithmic Tapestry</h2>
     <figure class="about-image">
       <img src="/assets/about-illustration.png" alt="Illustration of a notebook" width="330">
       <figcaption>
@@ -22,8 +23,23 @@ const permalink = `${Astro.site.href}about`;
     <p>Yet life, in all its algorithmic intricacies, is not devoid of chaos. In the box of algorithms, randomness plays its part. It's the unexpected, the unpredictable that introduces new possibilities, new pathways. It is the element of surprise that keeps the algorithmic dance of life from becoming a monotonous sequence of predictable events. It is this beautiful blend of order and chaos that breathes dynamism into our existence.</p>
     <p>Moreover, the algorithms of life are imbued with a sense of purpose, a search for meaning. In the computational language of existence, this quest for meaning serves as the heuristic function, guiding us, driving us towards our goals, our dreams, our aspirations. It helps us optimize our lives, steering us towards the best possible outcomes.</p>
     <p>Yet, in this box of algorithms, there is no definitive solution, no absolute endpoint. Life, in its infinite wisdom, is a continuous process, a journey of exploration and discovery. It is an iterative cycle of learning and growth, where the journey itself holds more value than the destination.</p>
-    <p>So, in essence, life is a box of algorithms. It is an intricate tapestry of decision, consequence, and recursion, a profound dance of order and chaos, a ceaseless journey towards meaning and understanding. It is a testament to the beauty of existence, a testament to the complexity and depth of the human experience. And in this box, each of us is a unique algorithm, adding our own distinctive pattern to the grand tapestry of life.</p>
-  </div>
+    <p>So, in essence, life is a box of algorithms. It is an intricate tapestry of decision, consequence, and recursion, a profound dance of order and chaos, a ceaseless journey towards meaning and understanding. It is a testament to the beauty of existence, a testament to the complexity and depth of the human experience. And in this box, each of us is a unique algorithm, adding our own distinctive pattern to the grand tapestry of life.</p>}
+    {choice > 5 && <h2>Life's Algorithmic Symphony</h2>
+    <figure class="about-image">
+      <img src="/assets/about-illustration.png" alt="Illustration of a notebook" width="330">
+      <figcaption>
+        Illustration by <a href="https://icons8.com/illustrations/author/625472">Ekaterina Rogova</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+      </figcaption>
+    </figure>
+    <p>As we wander through the intricate labyrinth of existence, we come to see that life, in its bewildering complexity and resplendent diversity, is indeed like a box of algorithms. Each one a unique set of rules, a distinct pattern of behavior, an enigmatic blueprint of action that shapes our journey through this cosmic dance.</p>
+    <p>An algorithm, in its purest essence, is a recipe, a protocol, an ordered set of steps to achieve a desired outcome. And isn't that precisely what life is? A ceaseless sequence of steps, a continual dance of decisions, each one leading us down a new path, each one altering the course of our existence in profound and often unexpected ways.</p>
+    <p>We wake up each morning, not knowing which algorithm we'll encounter. Perhaps it's the algorithm of serendipity, leading us to stumble upon moments of joy and connection in the most unlikely of places. Or it could be the algorithm of adversity, challenging us, pushing us to our limits, compelling us to unearth reservoirs of strength we never knew we had.</p>
+    <p>Each day presents a new algorithm, a new code to crack, a new puzzle to solve. And in the process of decoding, of problem-solving, of living, we come to know ourselves more deeply. We come to understand our strengths, confront our weaknesses, and acknowledge our infinite capacity for growth and transformation.</p>
+    <p>The box of algorithms is unfathomable, unpredictable, and ever-changing. And yet, therein lies its beauty. For it is in the uncertainty, in the not-knowing, in the relentless unfolding of the unknown, that we find the exhilarating thrill of existence. We may not always comprehend the code, we may not always appreciate the outcome, but we are always learning, always growing, always becoming.</p>
+    <p>Life's algorithms lead us on an unpredictable journey, an ever-evolving dance of experiences that shape our destiny. There's joy and sorrow, love and loss, triumph and defeat, laughter and tears. They are the pulsating heartbeats of our existence, the rhythmic cadence of our journey.</p>
+    <p>And so, we embrace each algorithm, each moment, each step of this extraordinary dance we call life. We strive to understand the codes that drive us, the rules that guide us, the patterns that shape us. And in doing so, we come to see that the true meaning of life is not found in the destination, but in the journey itself.</p>
+    <p>For life is indeed like a box of algorithms, a grand tapestry of codes waiting to be deciphered, a glorious symphony of experiences waiting to be embraced. And in the heart of this cosmic dance, in the core of this grand algorithm of existence, we find our true selves, we find our unique place in the universe, and we find the profound beauty and mystery of life itself.</p>
+</div>
 </BaseLayout>
 
 <style>
