@@ -12,13 +12,18 @@
   function handleChange(event) {
     theme = event.target.value;
     localStorage.setItem('theme', theme);
+    if (theme === 'light') {
+      document.getElementById("logo-theme").src="static/logo-light.gif";  
+    } else if (theme === 'dark') {
+      document.getElementById("logo-theme").src="static/logo-dark.gif";
+    }
   }
 
   $: if (rootEl && theme === 'light') {
-    document.getElementById("logo-theme").src="static/logo-light.gif";
+    // document.getElementById("logo-theme").src="static/logo-light.gif";
     rootEl.classList.remove('theme-dark');
   } else if (rootEl && theme === 'dark') {
-    document.getElementById("logo-theme").src="static/logo-dark.gif";
+    // document.getElementById("logo-theme").src="static/logo-dark.gif";
     rootEl.classList.add('theme-dark');
   }
 
