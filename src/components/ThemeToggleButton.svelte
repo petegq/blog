@@ -13,9 +13,9 @@
     theme = event.target.value;
     localStorage.setItem('theme', theme);
     if (theme === 'light') {
-      document.getElementById("logo-theme").src="public/assets/logo-light.mp4";  
+      document.getElementById("logo-theme").src="public/assets/logo-light.png";  
     } else if (theme === 'dark') {
-      document.getElementById("logo-theme").src="public/assets/logo-dark.mp4";
+      document.getElementById("logo-theme").src="public/assets/logo-dark.png";
     }
   }
 
