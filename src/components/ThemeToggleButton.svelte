@@ -15,8 +15,10 @@
   }
 
   $: if (rootEl && theme === 'light') {
+    document.getElementById("logo-theme").src="public/assets/logo-light.gif";
     rootEl.classList.remove('theme-dark');
   } else if (rootEl && theme === 'dark') {
+    document.getElementById("logo-theme").src="public/assets/logo-dark.gif";
     rootEl.classList.add('theme-dark');
   }
 
