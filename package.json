@@ -7,12 +7,15 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
+    "add-prettier": "wget https://raw.githubusercontent.com/petegq/config/master/.prettierignore && wget https://raw.githubusercontent.com/petegq/config/master/.prettierrc && npm i -D prettier"
   },
   "devDependencies": {
     "@astrojs/mdx": "^0.8.3",
     "@astrojs/svelte": "^1.0.0",
     "astro": "^1.0.3",
+    "prettier": "^2.8.8",
     "rehype-external-links": "^2.0.0"
   },
   "dependencies": {
