@@ -1,17 +1,9 @@
 ---
 title: Deploying a Kali Linux VPS on AWS using CloudFormation
-date: '2023-04-30'
-tags: ['Kali', 'Linux', 'OffSec', 'AWS', 'VPS']
-draft: false
-summary: We will walk you through deploying a Kali Linux Virtual Private Server (VPS) on AWS using CloudFormation templates
-images: []
-layout: PostLayout
-canonicalUrl: /deploying-kali-vps-aws-cloudformation
+publishDate: 15 May 2023
+description: We will walk you through deploying Kali Linux to an AWS VPS with a CloudFormation template.
+tags: ['shorts', 'AWS', 'kali', 'linux', 'AWS-CLI', 'cloudformation', 'template', 'vps', 'deployment']
 ---
-
-Deploying a Kali Linux VPS on AWS using CloudFormation
-
-Introduction:
 
 Kali Linux, a popular and powerful penetration testing and security auditing platform, is essential for modern cybersecurity professionals. With its vast array of tools and utilities, Kali Linux has become the go-to choice for many ethical hackers, security researchers, and network administrators. This article will walk you through deploying a Kali Linux Virtual Private Server (VPS) on Amazon Web Services (AWS) using an AWS CloudFormation template, making it easy and efficient to set up and manage your Kali Linux environment.
 

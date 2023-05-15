@@ -2,6 +2,7 @@
 title: Deploy a NodeJS API with AWS Elastic Beanstalk
 publishDate: 13 May 2023
 description: Deploy your Node.js API to Amazon Web Services (AWS) using the Elastic Beanstalk service.
+tags: ['shorts', 'AWS', 'NodeJS', 'API', 'Elastic-Beanstalk', 'EB', 'EB-CLI', 'deployment']
 ---
 
 Deploy your Node.js API to Amazon Web Services (AWS) using the Elastic Beanstalk service, which automatically handles the deployment, scaling, and maintenance of your application.
