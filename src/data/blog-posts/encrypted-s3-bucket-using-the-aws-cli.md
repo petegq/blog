@@ -1,6 +1,6 @@
 ---
 title: Encrypted S3 bucket using the AWS CLI
-publishDate: 14 May 2023
+publishDate: 22 May 2023
 description: Steps to create an encrypted S3 bucket using the AWS CLI.
 tags: ['shorts', 'AWS', 'S3', 'AWS-CLI', 'CLI']
 ---

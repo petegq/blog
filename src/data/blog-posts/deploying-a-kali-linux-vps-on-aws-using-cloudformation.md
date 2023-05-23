@@ -1,6 +1,6 @@
 ---
 title: Deploying a Kali Linux VPS on AWS using CloudFormation
-publishDate: 15 May 2023
+publishDate: 17 May 2023
 description: We will walk you through deploying Kali Linux to an AWS VPS with a CloudFormation template.
 tags: ['shorts', 'AWS', 'kali', 'linux', 'AWS-CLI', 'cloudformation', 'template', 'vps', 'deployment']
 ---
