@@ -1,11 +1,9 @@
 ---
-title: Array Map in JS
+title: Array Methods: .map()
 publishDate: 1 June 2023
 description: Delving in to the array.map() method in JS.
 tags: ['js', 'arrays', 'map']
 ---
-
-## array.prototype.map()
 
 The `map()` method is used to create a new array by applying a function to each element of an original array. The `map()` function calls the provided function once for each element in an array, in order.
 
