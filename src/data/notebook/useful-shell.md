@@ -58,7 +58,7 @@ mkdir -p /mnt/ram
 mount -t tmpfs tmpfs /mnt/ram -o size=8192M
 
 # Don't add command to history (note the leading space)
- ls -l
+ls -l
 
 # Fix a really long command that you messed up
 fc
