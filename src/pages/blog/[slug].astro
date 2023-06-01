@@ -22,7 +22,7 @@ const permalink = `${Astro.site.href}blog/${slug}`;
     <p>{publishDate} ~ {readingTime}</p>
     {updateDate && <p>Updated: {updateDate}</p>}
     <h1>{title}</h1>
-    <p>Tags: {(tags).join(" ")}</p>
+    <p>{(tags).join(" ")}</p>
     <hr />
   </header>
   <div class="container">
