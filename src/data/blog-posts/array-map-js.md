@@ -1,5 +1,5 @@
 ---
-title: Array Methods: .map()
+title: 'Array Methods: Map'
 publishDate: 1 June 2023
 description: Delving in to the array.map() method in JS.
 tags: ['js', 'arrays', 'map']
