@@ -76,14 +76,6 @@ cat file | tee -a log | cat > /dev/null
 disown -a && exit
 ```
 
-## Todo
-```shell
-awk(1) # pattern-directed scanning and processing language
-sed # stream editor
-grep # utility searches any given input files, selecting lines that match one or more patterns (Also: zgrep, zegrep, and zfgrep, egrep, and fgrep, bzgrep, bzegrep, and bzfgrep, act like grep but for compressed formats).
-
-```
-
 ## Packer
 ```shell
 packer build -var-file=variables.json linode-example.json
