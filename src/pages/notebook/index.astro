@@ -21,7 +21,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
             <h2>
               <a href={href}>{post.frontmatter.title}</a>
             </h2>
-            <p>Tags: {(post.frontmatter.tags.join(" "))}</p>
+            <p class="post-item-tags">{(post.frontmatter.tags.join(" "))}</p>
             <p>{post.frontmatter.description}</p>
             <div class="post-item-footer">
               <span class="post-item-date">— {post.frontmatter.publishDate}</span>
@@ -49,5 +49,12 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 
   hr {
     margin: 60px auto;
+  }
+
+  .post-item-tags {
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-family: var(--font-family-sans);
+    font-weight: 600;
   }
 </style>
