@@ -10,8 +10,10 @@ tags: ['useful', 'cli', 'git', 'npm', 'vscode']
 - [VSCode](#vscode)
 
 ## Git
+
+Checkout the last branch you were on
 ```shell
-git checkout - # checkout the last branch you were on
+git checkout -
 ```
 
 ```shell
@@ -25,18 +27,22 @@ git push -u origin master
 ```
 
 ## NPM
-```shell
-# Time stats on start up
-Measure-command {npm start}
 
-# Add scripts in package.json
+Time stats on start up
+```shell
+Measure-command {npm start}
+```
+
+Add scripts in package.json
+```shell
 npm pkg set scripts.dev='nodemon index.js --port 8000'
 npm pkg set scripts.format='prettier --write "**/*.{js,jsx,ts,tsx}"'
 ```
 
 ## VSCode
-```shell
-# List all extensions installed on you local VSCode instance 
+
+List all extensions installed on you local VSCode instance
+```shell 
 code --list-extensions | xargs -L 1 echo code --install-extension
 ```
 
