@@ -6,56 +6,69 @@ tags: ['useful', 'cli', 'shell', 'bash', 'packer', 'linode']
 ---
 
 ## Shell
+
+### list contents with file information
 ```shell
-# list contents with file information
 ls -a
 ```
-```shell
+
 # la == ls -a ? (...perhaps theres... can't find an alias anywhere)
+```shell
 la
 ```
 
+### Tree search and print you target <dir> contents "tree <dir>"
 ```shell
-# Tree search and print you target <dir> contents
-tree <dir> 
-	tree node_modules
-	# Current directory
-	tree . 
-
-# Tree search and print you current dir, except that which you want <excluded> i.e:
-tree -I <excluded> 
-	tree -I node_modules
-	tree -I 'node_modules|cache|test_*'
+tree node_modules
+```
+or for current dir
+```shell
+tree . 
 ```
 
+### Tree search and print you current dir, except that which you want <excluded> i.e: "tree -I <excluded> 
 ```shell
-# Delete the <dir> its contents and sub-folders i.e:
-rm -rf <dir> 
-	rm -rf node_modules
-
-# All <dir> in all folders below the current i.e:
-rm -rf */<dir> 
-	rm -rf */node_modules
+tree -I node_modules
+```
+or
+```shell
+tree -I 'node_modules|cache|test_*'
 ```
 
+
+### Delete the <dir> its contents and sub-folders i.e: "rm -rf <dir>" 
 ```shell
-# find location of <executable>
+rm -rf node_modules
+```
+
+### All <dir> in all folders below the current i.e: "rm -rf */<dir>" 
+```shell
+rm -rf */node_modules
+```
+
+### Find location of <executable>
+```shell
 which <executable> 
 ```
 
+### Redo last command
 ```shell
-# Redo last command
 !!
 ```
+
+### Redo last command with sudo
 ```shell
-# Redo last command with sudo
 sudo !! 
 ```
 
+### home
 ```shell
-# home
 cd      
-cd -    # back to the last dir you came from
+```
+
+### back to the last dir you came format
+```shell
+cd -    
 ```
 
 ## Grep
