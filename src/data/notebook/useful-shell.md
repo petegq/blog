@@ -44,7 +44,7 @@ tree -I 'node_modules|cache|test_*'
 ```
 
 
-Delete the <dir> its contents and sub-folders i.e: `rm -rf <dir>`
+Delete the `<dir>` its contents and sub-folders i.e: `rm -rf <dir>`
 
 ```shell
 rm -rf node_modules
