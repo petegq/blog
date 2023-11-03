@@ -1,6 +1,6 @@
 ---
 title: "Useful: Shell, etc"
-publishDate: 25 May 2023
+publishDate: 3 Nov 2023
 description: Useful and or interesting commands for bash, shell and related.
 tags: ['useful', 'cli', 'shell', 'bash', 'packer', 'linode']
 ---

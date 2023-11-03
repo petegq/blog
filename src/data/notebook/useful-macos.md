@@ -1,7 +1,7 @@
 ---
 title: "Useful: MacOS"
-publishDate: ?
-description: Useful and or interesting commands for MacOS, zsh, etc.
+publishDate: 3 Nov 2023
+description: Useful and or interesting commands for MacOS, Zsh, etc.
 tags: ['useful', 'cli', 'macos', 'zsh']
 ---
 
