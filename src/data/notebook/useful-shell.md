@@ -61,12 +61,11 @@ Redo last command with sudo
 sudo !! 
 ```
 
-home
+Home
 ```shell
 cd      
 ```
-
-back to the last dir you came format
+or back to the last dir you came format
 ```shell
 cd -    
 ```
