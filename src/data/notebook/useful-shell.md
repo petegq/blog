@@ -33,37 +33,37 @@ tree .
 ```
 
 Tree search and print you current dir, except that which you want `<excluded>`
-`tree -I <excluded>`
+ex: `tree -I node_modules`
 
 ```shell
-tree -I node_modules
+tree -I <excluded>
 ```
 
-or
+or(`|`), ex: `tree -I 'node_modules|dist'`
 
 ```shell
-tree -I 'node_modules|cache|test_*'
+tree -I '<pattern_1>|<pattern_2>|<pattern_3>'
 ```
 
 
 Delete the `<dir>` its contents and sub-folders
-`rm -rf <dir>`
+`rm -rf node_modules`
 
 ```shell
-rm -rf node_modules
+rm -rf <dir>
 ```
 
 All `<dir>` in all folders below the current
-`rm -rf */<dir>`
+ex: `rm -rf */node_modules`
 
 ```shell
-rm -rf */node_modules
+rm -rf */<dir>
 ```
 
 Find location of executable
 
 ```shell
-which <exe> 
+which <exe>
 ```
 
 Redo last command
@@ -84,7 +84,7 @@ Home
 cd      
 ```
 
-or back to the last dir you came format
+or back to the last dir you came from
 
 ```shell
 cd -    
