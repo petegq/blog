@@ -20,7 +20,7 @@ la
 ```
 
 Tree search and print your target `<dir>` contents 
-`tree <dir>`
+i.e. `tree <dir>`
 
 ```shell
 tree node_modules
@@ -33,13 +33,14 @@ tree .
 ```
 
 Tree search and print you current dir, except that which you want `<excluded>`
-ex: `tree -I node_modules`
+i.e. `tree -I node_modules`
 
 ```shell
 tree -I <excluded>
 ```
 
-or(`|`), ex: `tree -I 'node_modules|dist'`
+or(`|`)
+i.e. `tree -I 'node_modules|dist'`
 
 ```shell
 tree -I '<pattern_1>|<pattern_2>|<pattern_3>'
@@ -47,14 +48,14 @@ tree -I '<pattern_1>|<pattern_2>|<pattern_3>'
 
 
 Delete the `<dir>` its contents and sub-folders
-`rm -rf node_modules`
+i.e. `rm -rf node_modules`
 
 ```shell
 rm -rf <dir>
 ```
 
 All `<dir>` in all folders below the current
-ex: `rm -rf */node_modules`
+i.e. `rm -rf */node_modules`
 
 ```shell
 rm -rf */<dir>
@@ -153,13 +154,13 @@ Lines not containing "pattern" (inverse grep)
 grep -v "pattern" file.txt
 ```
 
-Lines that contain a word ending with "word":
+Lines that contain a word ending with "word"
 
 ```shell
 grep -w '[^ ]*word' file.txt
 ```
 
-Lines containing the word "word":
+Lines containing the word "word"
 
 ```shell
 grep -w 'word' file.txt
