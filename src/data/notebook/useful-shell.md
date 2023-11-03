@@ -8,6 +8,7 @@ tags: ['useful', 'cli', 'shell', 'bash', 'packer', 'linode']
 ## Shell
 
 list contents with file information
+
 ```shell
 ls -a
 ```
