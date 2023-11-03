@@ -13,20 +13,20 @@ list contents with file information
 ls -a
 ```
 
-la == ls -a ? (...perhaps theres... can't find an alias anywhere)
+`la` == `ls -a` ?
 
 ```shell
 la
 ```
 
-Tree search and print your target <dir> contents 
+Tree search and print your target `<dir>` contents 
 `tree <dir>`
 
 ```shell
 tree node_modules
 ```
 
-or for current dir
+or for current `<dir>`
 
 ```shell
 tree . 
