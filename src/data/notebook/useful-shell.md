@@ -19,7 +19,8 @@ la == ls -a ? (...perhaps theres... can't find an alias anywhere)
 la
 ```
 
-Tree search and print your target <dir> contents `tree <dir>`
+Tree search and print your target <dir> contents 
+`tree <dir>`
 
 ```shell
 tree node_modules
@@ -31,7 +32,8 @@ or for current dir
 tree . 
 ```
 
-Tree search and print you current dir, except that which you want <excluded> i.e: `tree -I <excluded>`
+Tree search and print you current dir, except that which you want `<excluded>`
+`tree -I <excluded>`
 
 ```shell
 tree -I node_modules
@@ -44,22 +46,24 @@ tree -I 'node_modules|cache|test_*'
 ```
 
 
-Delete the `<dir>` its contents and sub-folders i.e: `rm -rf <dir>`
+Delete the `<dir>` its contents and sub-folders
+`rm -rf <dir>`
 
 ```shell
 rm -rf node_modules
 ```
 
-All <dir> in all folders below the current i.e: `rm -rf */<dir>`
+All `<dir>` in all folders below the current
+`rm -rf */<dir>`
 
 ```shell
 rm -rf */node_modules
 ```
 
-Find location of <executable>
+Find location of executable
 
 ```shell
-which <executable> 
+which <exe> 
 ```
 
 Redo last command
