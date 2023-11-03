@@ -7,37 +7,54 @@ tags: ['useful', 'cli', 'shell', 'bash', 'packer', 'linode']
 
 ## Shell
 ```shell
-ls -a # list contents with file information
-la # la == ls -a ? (...perhaps theres... no, no alias in .zshrc)
+# list contents with file information
+ls -a
+```
+```shell
+# la == ls -a ? (...perhaps theres... can't find an alias anywhere)
+la
 ```
 
 ```shell
-tree <dir> # Tree search and print you target <dir> contents
+# Tree search and print you target <dir> contents
+tree <dir> 
 	tree node_modules
-	tree . # Current directory
+	# Current directory
+	tree . 
 
-tree -I <excluded> # Tree search and print you current dir, except that which you want <excluded> i.e:
+# Tree search and print you current dir, except that which you want <excluded> i.e:
+tree -I <excluded> 
 	tree -I node_modules
 	tree -I 'node_modules|cache|test_*'
 ```
 
 ```shell
-rm -rf <dir> # Delete the <dir> its contents and sub-folders i.e:
+# Delete the <dir> its contents and sub-folders i.e:
+rm -rf <dir> 
 	rm -rf node_modules
 
-rm -rf */<dir> # All <dir> in all folders below the current i.e:
+# All <dir> in all folders below the current i.e:
+rm -rf */<dir> 
 	rm -rf */node_modules
 ```
 
 ```shell
-which <executable> # find location of <executable>
+# find location of <executable>
+which <executable> 
 ```
 
 ```shell
-!!      # Redo last command
-sudo !! # Redo last command with sudo
+# Redo last command
+!!
+```
+```shell
+# Redo last command with sudo
+sudo !! 
+```
 
-cd      # home
+```shell
+# home
+cd      
 cd -    # back to the last dir you came from
 ```
 
@@ -74,6 +91,9 @@ cat file | tee -a log | cat > /dev/null
 
 # Exit terminal but leave all processes running
 disown -a && exit
+
+# Grep lines not containing "pattern" (inverse grep)
+grep -v "pattern" file.txt
 ```
 
 ## Packer
